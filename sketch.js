@@ -42,7 +42,7 @@ function lineDrawing() {
 }
 
 
-function pressMouse() {
+function mousePressed() {
   //This function adds data points to the list every time the mouse is clicked. 
   var x = map(mouseX, 0, width, 0, 1);
   var y = map(mouseY, 0, height, 1, 0);
