@@ -23,7 +23,7 @@ function gradientDescent() {
   }
 }
 
-function LineDrawing() {
+function lineDrawing() {
   var x1 = 0;
   var y1 = m * x1 + b;
   var x2 = 1;
@@ -62,6 +62,6 @@ function draw() {
   
    if (data.length > 1) {
     gradientDescent();
-    LineDrawing();
+    lineDrawing();
   }
 }
