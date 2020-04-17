@@ -8,7 +8,7 @@ var m = 0;
 var b = 0;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(400, 400);
 }
 
 function gradientDescent() {
@@ -34,11 +34,11 @@ function lineDrawing() {
   x2 = map(x2, 0, 1, 0, width);
   y2 = map(y2, 0, 1, height, 0);
 
-  stroke(255);
-  strokeWeight(2);
+  //stroke(255);
+  //strokeWeight(2);
   line(x1, y1, x2, y2);
-stroke(200,0,0);
-line(m*x1^2+b*x1+c, y1, m*x2^2+b*x2+c, y2);
+  stroke(50,205,50);
+//line(m*x1^2+b*x1+c, y1, m*x2^2+b*x2+c, y2);
 }
 
 
